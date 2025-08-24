@@ -1,0 +1,347 @@
+{
+  "city_data": {
+    "major_cities": [
+      {
+        "city": "北京",
+        "tier": 1,
+        "population": 21843000,
+        "avg_income": 77415
+      },
+      {
+        "city": "上海",
+        "tier": 1,
+        "population": 24759000,
+        "avg_income": 79610
+      },
+      {
+        "city": "广州",
+        "tier": 1,
+        "population": 18676000,
+        "avg_income": 75000
+      },
+      {
+        "city": "深圳",
+        "tier": 1,
+        "population": 17685000,
+        "avg_income": 73000
+      },
+      {
+        "city": "天津",
+        "tier": 2,
+        "population": 13630000,
+        "avg_income": 45000
+      },
+      {
+        "city": "重庆",
+        "tier": 2,
+        "population": 32133000,
+        "avg_income": 34000
+      },
+      {
+        "city": "苏州",
+        "tier": 2,
+        "population": 12750000,
+        "avg_income": 70819
+      },
+      {
+        "city": "成都",
+        "tier": 2,
+        "population": 20938000,
+        "avg_income": 48000
+      },
+      {
+        "city": "武汉",
+        "tier": 2,
+        "population": 13648000,
+        "avg_income": 52000
+      },
+      {
+        "city": "杭州",
+        "tier": 2,
+        "population": 12204000,
+        "avg_income": 68666
+      },
+      {
+        "city": "西安",
+        "tier": 2,
+        "population": 12953000,
+        "avg_income": 45000
+      },
+      {
+        "city": "南京",
+        "tier": 2,
+        "population": 9423000,
+        "avg_income": 65000
+      },
+      {
+        "city": "青岛",
+        "tier": 2,
+        "population": 10257000,
+        "avg_income": 50000
+      },
+      {
+        "city": "长沙",
+        "tier": 2,
+        "population": 10474000,
+        "avg_income": 58850
+      },
+      {
+        "city": "宁波",
+        "tier": 2,
+        "population": 9540000,
+        "avg_income": 62000
+      },
+      {
+        "city": "郑州",
+        "tier": 2,
+        "population": 12742000,
+        "avg_income": 42000
+      },
+      {
+        "city": "沈阳",
+        "tier": 2,
+        "population": 9070000,
+        "avg_income": 40000
+      },
+      {
+        "city": "东莞",
+        "tier": 2,
+        "population": 10466000,
+        "avg_income": 48000
+      },
+      {
+        "city": "昆明",
+        "tier": 2,
+        "population": 8460000,
+        "avg_income": 38000
+      },
+      {
+        "city": "大连",
+        "tier": 2,
+        "population": 7450000,
+        "avg_income": 42000
+      }
+    ],
+    "demographic_stats": {
+      "age_distribution": {
+        "20-24": 0.052,
+        "25-29": 0.065,
+        "30-34": 0.088,
+        "35-39": 0.075,
+        "40-44": 0.072
+      },
+      "education_distribution": {
+        "高中及以下": 0.65,
+        "大专": 0.12,
+        "本科": 0.18,
+        "硕士": 0.045,
+        "博士": 0.005
+      },
+      "income_distribution": {
+        "一线城市": {
+          "3万以下": 0.15,
+          "3-5万": 0.18,
+          "5-10万": 0.32,
+          "10-20万": 0.23,
+          "20-50万": 0.1,
+          "50万以上": 0.02
+        },
+        "二线城市": {
+          "3万以下": 0.25,
+          "3-5万": 0.28,
+          "5-10万": 0.3,
+          "10-20万": 0.13,
+          "20-50万": 0.035,
+          "50万以上": 0.005
+        },
+        "三四线城市": {
+          "3万以下": 0.35,
+          "3-5万": 0.32,
+          "5-10万": 0.25,
+          "10-20万": 0.07,
+          "20-50万": 0.015,
+          "50万以上": 0.005
+        }
+      },
+      "housing_ownership": {
+        "一线城市": {
+          "有房": 0.45,
+          "无房": 0.55
+        },
+        "二线城市": {
+          "有房": 0.62,
+          "无房": 0.38
+        },
+        "三四线城市": {
+          "有房": 0.75,
+          "无房": 0.25
+        }
+      },
+      "marriage_status": {
+        "未婚": 0.28,
+        "已婚": 0.65,
+        "离异": 0.065,
+        "丧偶": 0.005
+      }
+    }
+  },
+  "selection_criteria": {
+    "basic_info": {
+      "gender": [
+        "男性",
+        "女性"
+      ],
+      "age_range": {
+        "min": 18,
+        "max": 50
+      },
+      "city_preference": "required",
+      "height_range": {
+        "男性": {
+          "min": 160,
+          "max": 200
+        },
+        "女性": {
+          "min": 150,
+          "max": 180
+        }
+      }
+    },
+    "economic_criteria": {
+      "annual_income": {
+        "ranges": [
+          "3万以下",
+          "3-5万",
+          "5-10万",
+          "10-20万",
+          "20-50万",
+          "50万以上"
+        ],
+        "importance": "high"
+      },
+      "housing_status": {
+        "options": [
+          "有房(全款)",
+          "有房(按揭)",
+          "无房但有购房能力",
+          "无房"
+        ],
+        "importance": "high"
+      },
+      "car_ownership": {
+        "options": [
+          "有车",
+          "无车"
+        ],
+        "importance": "medium"
+      }
+    },
+    "education_career": {
+      "education_level": {
+        "options": [
+          "高中及以下",
+          "大专",
+          "本科",
+          "硕士",
+          "博士"
+        ],
+        "importance": "medium"
+      },
+      "career_stability": {
+        "options": [
+          "国企/事业单位",
+          "外企",
+          "民企",
+          "自主创业",
+          "自由职业"
+        ],
+        "importance": "medium"
+      }
+    },
+    "family_background": {
+      "family_economic_status": {
+        "options": [
+          "一般",
+          "小康",
+          "富裕",
+          "非常富裕"
+        ],
+        "importance": "medium"
+      },
+      "parents_attitude": {
+        "options": [
+          "非常支持",
+          "支持",
+          "中立",
+          "不太支持"
+        ],
+        "importance": "low"
+      },
+      "only_child": {
+        "options": [
+          "独生子女",
+          "非独生子女"
+        ],
+        "importance": "low"
+      }
+    },
+    "personal_qualities": {
+      "appearance": {
+        "options": [
+          "非常好看",
+          "好看",
+          "一般",
+          "外貌不重要"
+        ],
+        "importance": "medium"
+      },
+      "personality": {
+        "options": [
+          "外向",
+          "内向",
+          "性格不重要"
+        ],
+        "importance": "medium"
+      },
+      "lifestyle": {
+        "options": [
+          "不吸烟不喝酒",
+          "偶尔喝酒",
+          "经常喝酒",
+          "生活习惯不重要"
+        ],
+        "importance": "low"
+      }
+    },
+    "marriage_expectations": {
+      "marriage_timeline": {
+        "options": [
+          "1年内",
+          "1-2年",
+          "2-3年",
+          "3年以上",
+          "顺其自然"
+        ],
+        "importance": "medium"
+      },
+      "children_plan": {
+        "options": [
+          "想要孩子",
+          "不想要孩子",
+          "随缘"
+        ],
+        "importance": "high"
+      },
+      "dowry_expectations": {
+        "ranges": [
+          "0万",
+          "1-5万",
+          "5-10万",
+          "10-20万",
+          "20万以上"
+        ],
+        "importance": "medium"
+      }
+    }
+  }
+}
